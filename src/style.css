@@ -1,5 +1,29 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
     background: white;
+}
+
+#contenedorDominios {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 500px;
+}
+
+.header:hover {
+    color: red;
+    transform: scale(1.2);
+   
+    transition: transform 0.3s ease;
+ 
+}
+
+#generarDominios:hover {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transform: scale(1.2);
+   
+    transition: transform 0.5s ease;
+  
 }
